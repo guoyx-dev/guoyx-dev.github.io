@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Rainの君|博客</title>
+  
+  <subtitle>做最好的程序员</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.gyxblog.top/"/>
+  <updated>2020-04-28T12:41:53.773Z</updated>
+  <id>http://www.gyxblog.top/</id>
+  
+  <author>
+    <name>雨残江天暮</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开发流程</title>
+    <link href="http://www.gyxblog.top/2020/04/28/%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B/"/>
+    <id>http://www.gyxblog.top/2020/04/28/%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B/</id>
+    <published>2020-04-28T12:30:16.000Z</published>
+    <updated>2020-04-28T12:41:53.773Z</updated>
+    
+    <content type="html"><![CDATA[<p>​        有朋友问我到公司怎么开发的，开发流程是什么，可能也有很多刚入职或者还没入职正在找工作的程序员，也想问这样的问题。说下面的这段话的时候，我自己也刚开始步入工作没多久。希望下面的回答能帮到问此问题的人，此处发言仅供参考。</p><a id="more"></a><p>​        一般是这样，比如客户要求什么功能，确定需求，分析理解需求/改需求，开始做详细设计（数据库怎么设计、页面怎么设计、项目什么结构）至于做详细设计，比如包结构，画个类图、流程图、要明确类和方法，接着开始编写代码，代码编写完成后要进行单元测试（一般就是自己测，或者队友测，有问题就改），然后更新版本（开发的时候是在开发服务器上编辑的代码，等编写完后，就要在部署到测试服务器上，然后开始测试，要在测试服务器上部署项目更新版本）。接着就开始进行测试，测试过程中把问题都记录下，我们是在一个自己的平台上提交问题，指定谁的问题，谁去改等，有了问题之后就是改问题（改bug），bug改完再部署到测试服务器上，进行回归测试（就是把之前那些问题再测试一遍），然后后面就可以交付了，部署到客户机上，还得演示，不能在客户场出问题（所以前面测试要好好测）。</p><p>​        说的非常笼统，对于刚入行的我来说，这就是我开发的流程了。以后还会继续学习，其实开发流程就是软件开发的过程，我个人建议大家去系统的学习一下软件工程，软件开发离不开软件工程，要把软件做好必定是按照软件工程的过程来进行的，并且有非常严格的质量检测。</p><p>​        就说道这儿啦，拜拜！</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;​        有朋友问我到公司怎么开发的，开发流程是什么，可能也有很多刚入职或者还没入职正在找工作的程序员，也想问这样的问题。说下面的这段话的时候，我自己也刚开始步入工作没多久。希望下面的回答能帮到问此问题的人，此处发言仅供参考。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="开发" scheme="http://www.gyxblog.top/categories/%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="开发" scheme="http://www.gyxblog.top/tags/%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://www.gyxblog.top/2020/04/28/hello-world/"/>
+    <id>http://www.gyxblog.top/2020/04/28/hello-world/</id>
+    <published>2020-04-28T07:30:16.000Z</published>
+    <updated>2020-04-28T12:42:38.122Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="其他" scheme="http://www.gyxblog.top/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+      <category term="其他" scheme="http://www.gyxblog.top/tags/%E5%85%B6%E4%BB%96/"/>
+    
+  </entry>
+  
+</feed>
